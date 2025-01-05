@@ -16,6 +16,7 @@ int countTriplets(vector<int> &arr, int target) {
                     c2++;
                     right--;
                     }
+                    //basic calculation if all elements are equal in that range
                     if(e1 == e2) ans += (c1*(c1-1))/2;
                     else ans += c1*c2;
                 }

@@ -124,5 +124,7 @@ int main(){
     cout<<maxValue(root)<<endl;
     cout<<deleteFromBST(root,7)->data<<endl;
     levelOrderTraversal(root);
+
+    
     return 0;
 }
